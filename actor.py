@@ -7,6 +7,8 @@ def speech_to_text():
     # A recognizer to recognize audio
     r = sr.Recognizer()
 
+    #testing
+
     # Using microphone as the source, we could put audio files too
     with sr.Microphone() as source:
         print('Start talking:')
